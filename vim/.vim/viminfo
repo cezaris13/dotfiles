@@ -21,13 +21,13 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1728134332,,"q"
+|2,0,1728135612,,"q"
+:wq
+|2,0,1728135531,,"wq"
+:w
+|2,0,1728135530,,"w"
 :Q
 |2,0,1728134330,,"Q"
-:w
-|2,0,1728133809,,"w"
-:wq
-|2,0,1727986096,,"wq"
 :Wq
 |2,0,1727983505,,"Wq"
 :q!
@@ -221,34 +221,60 @@ $
 |3,1,36,0,1,0,1728133718," "
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1728134332,"~/.gitconfig"
-'1  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,49,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
-'2  1  0  ~/.xprofile
-|4,50,1,0,1728133694,"~/.xprofile"
-'3  2  0  ~/.bash_profile
-|4,51,2,0,1728133498,"~/.bash_profile"
+'0  1  0  ~/dotfiles/git/.gitconfig
+|4,48,1,0,1728135612,"~/dotfiles/git/.gitconfig"
+'1  53  9  ~/dotfiles/i3/.config/i3blocks/config
+|4,49,53,9,1728135531,"~/dotfiles/i3/.config/i3blocks/config"
+'2  1  0  ~/.gitconfig
+|4,50,1,0,1728134332,"~/.gitconfig"
+'3  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,51,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
 '4  1  0  ~/.xprofile
-|4,52,1,0,1728133332,"~/.xprofile"
-'5  64  0  ~/.config/lwsm/config.json
-|4,53,64,0,1728133197,"~/.config/lwsm/config.json"
-'6  25  0  ~/.config/volumeicon/volumeicon
-|4,54,25,0,1728133088,"~/.config/volumeicon/volumeicon"
-'7  32  0  ~/.config/qt5ct/qt5ct.conf
-|4,55,32,0,1728132990,"~/.config/qt5ct/qt5ct.conf"
-'8  28  0  ~/.config/bspwm/bspwmrc
-|4,56,28,0,1728132797,"~/.config/bspwm/bspwmrc"
-'9  54  0  ~/.config/dmenu/.gitignore
-|4,57,54,0,1728132772,"~/.config/dmenu/.gitignore"
+|4,52,1,0,1728133694,"~/.xprofile"
+'5  2  0  ~/.bash_profile
+|4,53,2,0,1728133498,"~/.bash_profile"
+'6  1  0  ~/.xprofile
+|4,54,1,0,1728133332,"~/.xprofile"
+'7  64  0  ~/.config/lwsm/config.json
+|4,55,64,0,1728133197,"~/.config/lwsm/config.json"
+'8  25  0  ~/.config/volumeicon/volumeicon
+|4,56,25,0,1728133088,"~/.config/volumeicon/volumeicon"
+'9  32  0  ~/.config/qt5ct/qt5ct.conf
+|4,57,32,0,1728132990,"~/.config/qt5ct/qt5ct.conf"
 
 # Jumplist (newest first):
+-'  1  0  ~/dotfiles/git/.gitconfig
+|4,39,1,0,1728135612,"~/dotfiles/git/.gitconfig"
+-'  53  9  ~/dotfiles/i3/.config/i3blocks/config
+|4,39,53,9,1728135531,"~/dotfiles/i3/.config/i3blocks/config"
+-'  1  0  ~/dotfiles/i3/.config/i3blocks/config
+|4,39,1,0,1728135528,"~/dotfiles/i3/.config/i3blocks/config"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1728134332,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1728134332,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1728134332,"~/.gitconfig"
 -'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
 |4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
 -'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
 |4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
+-'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
+|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
 -'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
 |4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
 -'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
@@ -261,6 +287,54 @@ $
 |4,39,1,0,1728133694,"~/.xprofile"
 -'  1  0  ~/.xprofile
 |4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133694,"~/.xprofile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1728133498,"~/.bash_profile"
 -'  2  0  ~/.bash_profile
 |4,39,2,0,1728133498,"~/.bash_profile"
 -'  2  0  ~/.bash_profile
@@ -293,6 +367,38 @@ $
 |4,39,1,0,1728133485,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
 |4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1728133485,"~/.bash_profile"
 -'  1  0  ~/.xprofile
 |4,39,1,0,1728133332,"~/.xprofile"
 -'  1  0  ~/.xprofile
@@ -309,142 +415,47 @@ $
 |4,39,1,0,1728133332,"~/.xprofile"
 -'  1  0  ~/.xprofile
 |4,39,1,0,1728133332,"~/.xprofile"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  64  0  ~/.config/lwsm/config.json
-|4,39,64,0,1728133197,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  1  0  ~/.config/lwsm/config.json
-|4,39,1,0,1728133185,"~/.config/lwsm/config.json"
--'  25  0  ~/.config/volumeicon/volumeicon
-|4,39,25,0,1728133088,"~/.config/volumeicon/volumeicon"
--'  25  0  ~/.config/volumeicon/volumeicon
-|4,39,25,0,1728133088,"~/.config/volumeicon/volumeicon"
--'  25  0  ~/.config/volumeicon/volumeicon
-|4,39,25,0,1728133088,"~/.config/volumeicon/volumeicon"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1728133332,"~/.xprofile"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/i3/.config/i3blocks/config
+	*	1728135530	0
+	"	53	9
+	^	53	10
+	.	53	9
+	+	53	9
+
+> ~/dotfiles/git/.gitconfig
+	*	1728134404	0
+	"	1	0
 
 > ~/.gitconfig
 	*	1728134330	0
@@ -1299,20 +1310,3 @@ $
 > ~/file.txt
 	*	1679209033	0
 	"	1	0
-
-> ~/Desktop/Projects/Packager/packager/omnisharp.json
-	*	1678713706	0
-	"	1	0
-
-> ~/Desktop/PS3/2Semester/OOP/Lab1/prac1/Point_circle_base/makefile
-	*	1678368447	0
-	"	3	8
-	^	3	9
-	.	3	8
-	+	2	26
-	+	2	0
-	+	3	12
-	+	2	26
-	+	3	12
-	+	2	16
-	+	3	8

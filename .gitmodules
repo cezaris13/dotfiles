@@ -13,3 +13,6 @@
 [submodule "i3/.config/i3"]
 	path = i3/.config/i3
 	url = https://github.com/cezaris13/i3
+[submodule "dwm/.config/dwm"]
+	path = dwm/.config/dwm
+	url = https://github.com/cezaris13/dwm

@@ -4,3 +4,6 @@
 [submodule "dwmblocks/.config/dwmblocks"]
 	path = dwmblocks/.config/dwmblocks
 	url = https://github.com/cezaris13/dwmblocks
+[submodule "doom/.config/emacs"]
+	path = doom/.config/emacs
+	url = https://github.com/cezaris13/emacs

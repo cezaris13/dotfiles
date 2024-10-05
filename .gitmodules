@@ -10,3 +10,6 @@
 [submodule "doom/.config/doom"]
 	path = doom/.config/doom
 	url = https://github.com/cezaris13/doom
+[submodule "i3/.config/i3"]
+	path = i3/.config/i3
+	url = https://github.com/cezaris13/i3

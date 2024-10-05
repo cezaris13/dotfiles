@@ -7,3 +7,6 @@
 [submodule "doom/.config/emacs"]
 	path = doom/.config/emacs
 	url = https://github.com/cezaris13/emacs
+[submodule "doom/.config/doom"]
+	path = doom/.config/doom
+	url = https://github.com/cezaris13/doom

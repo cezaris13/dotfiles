@@ -1,0 +1,20 @@
+syntax on
+
+set tabstop=4 softtabstop=4
+set nu rnu
+set shiftwidth=4
+set smartindent
+set completeopt-=preview
+call plug#begin()
+Plug 'preservim/NERDTree'
+Plug 'raimondi/delimitmate'
+Plug 'ervandew/supertab'
+Plug 'ajh17/vimcompletesme'
+Plug 'dylanaraps/wal'
+call plug#end()
+set viminfo+=n~/.vim/viminfo
+nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
+nnoremap <C-x> :!./%:r.out
+map <F3> :!dolphin . & <enter>
+
+

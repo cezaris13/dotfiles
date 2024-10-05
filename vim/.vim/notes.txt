@@ -1,0 +1,229 @@
+todo:
+	1.two fingers to right click three to middle click (kde does that, don't like that :DDD )
+	2.sudo pacman -S - < pkglist.txt;  pacman -Qqen > pkglist.txt
+	3.kill -HUP dwm (ale restarts dwm)
+	4.nuo vandens atsispindejusi sviesa yra is dalies poliarizuota
+	5.Arnas Sekmes skanaus ir labanakt
+	6. kaip grizt namo? ctrl+z`
+	7. latex konspektai
+zeinty
+todo haskell search with dmenu
+https://hoogle.haskell.org/?hoogle=(Num%20a)%20%3D%3E%20%5Ba%5D%20-%3E%20a
+(Num a) => [a] -> a
+dzen to try out (clickable)
+
+
+try out these window managers
+	spectrwm-c
+	awesome-lua
+	qtile-python
+	bspwm-bash
+
+todo:
+	yocto()
+	databases? somehow
+	yaml?
+	ansible(automation)
+
+audio jack script
+mobius function
+competetive programming thingies
+number theory
+
+introduction for LinkedIn
+machine learning
+
+number for a day:
+	816130989221126970453177148359
+
+todo script
+	xlib to learn
+	readme.md pasirasyti visur
+	latex for keybindings dwm
+
+todo:
+	warp upgrade to return to previous place of mouse on that window
+	calendar for dwmblocks(mode usable and can use more than one month)
+
+
+bloga ideja spausdinti pranesimus bibliotekoje 
+(pranesimas tik)
+skaidrese ko nori paaiskinimas
+
+
+
+
+error messages in vector
+15:30-17:00 programming vectors
+17:00-17:10 from vector_push_back... v.push_back();
+day 2
+16-16:50 testing and adding error messages
+code standart
+
+
+
+
+
+konstruktorius
+public class kazkas{
+public kazkas(){
+	this(1,1);
+
+}
+
+}
+	}
+
+
+
+ideas(28% 3)
+team(32% 2)
+business model(24% 4)
+funding(14% 5)
+timing(42% 1)air bnb (renting)
+uber Great timing
+failure z.com (broad band was slow)-> youtube won
+prideti banko saskaita
+
+rk royal kludge RK100 96% ..... ->89.99$+shipping=133.06$
+
+11 penktadieni
+
+
+
+
+
+meditation of laura
+
+
+
+
+
+* refactor some integration tests, to make them faster
+* work on apim part of the project(add documentation)
+* have more experience working with Typesctipt project
+* work more with swagger part 
+
+
+
+
+
+
+
+ let a= JsonLikeObject [("head",JsonLikeList [JsonLikeInteger 0,JsonLikeInteger 4]),("tail",JsonLikeObject [(    "head",JsonLikeList [JsonLikeInteger 0,JsonLikeInteger 3]),("tail",JsonLikeObject [("head",JsonLikeList [JsonLikeInteger 0,JsonLikeInteger 2]),("tail",JsonLikeObject [("head",JsonLikeList [JsonLikeInteger 0,JsonLikeInteger 1]),("tail",JsonLikeObject [("head",JsonLikeList [JsonLikeInteger 0,JsonLikeInteger 0]),("tail",JsonLikeObject [("head",JsonLikeNull),("tail",JsonLikeNull)])])])])])] 
+
+
+
+
+
+
+tringToListOfObject "{\"bomb\":[1,5],\"surrounding\":{\"bombermans\":{\"head\":[1,5],\"tail\":{\"head\":null,\"tail\":null}},\"bricks\":{\"head\":[8,11],\"tail\":{\"head\":[8,9],\"tail\":{\"head\":[8,7],\"tail\":{\"head\":[8,3],\"tail\":{\"head\":[8,1],\"tail\":{\"head\":[7,12],\"tail\":{\"head\":[7,10],\"tail\":{\"head\":[6,11],\"tail\":{\"head\":[6,7],\"tail\":{\"head\":[6,5],\"tail\":{\"head\":[5,8],\"tail\":{\"head\":[5,4],\"tail\":{\"head\":[4,11],\"tail\":{\"head\":[3,10],\"tail\":{\"head\":[3,6],\"tail\":{\"head\":[3,4],\"tail\":{\"head\":[2,3],\"tail\":{\"head\":[2,1],\"tail\":{\"head\":[1,12],\"tail\":{\"head\":[1,11],\"tail\":{\"head\":[1,10],\"tail\":{\"head\":[1,9],\"tail\":{\"head\":[1,8],\"tail\":{\"head\":[1,7],\"tail\":{\"head\":[1,6],\"tail\":{\"head\":null,\"tail\":null}}}}}}}}}}}}}}}}}}}}}}}}}},\"gates\":{\"head\":null,\"tail\":null},\"ghosts\":{\"head\":null,\"tail\":null},\"wall\":{\"head\":[8,12],\"tail\":{\"head\":[8,10],\"tail\":{\"head\":[8,8],\"tail\":{\"head\":[8,6],\"tail\":{\"head\":[8,4],\"tail\":{\"head\":[8,2],\"tail\":{\"head\":[8,0],\"tail\":{\"head\":[7,0],\"tail\":{\"head\":[6,12],\"tail\":{\"head\":[6,10],\"tail\":{\"head\":[6,8],\"tail\":{\"head\":[6,6],\"tail\":{\"head\":[6,4],\"tail\":{\"head\":[6,2],\"tail\":{\"head\":[6,0],\"tail\":{\"head\":[5,0],\"tail\":{\"head\":[4,12],\"tail\":{\"head\":[4,10],\"tail\":{\"head\":[4,8],\"tail\":{\"head\":[4,6],\"tail\":{\"head\":[4,4],\"tail\":{\"head\":[4,2],\"tail\":{\"head\":[4,0],\"tail\":{\"head\":[3,0],\"tail\":{\"head\":[2,12],\"tail\":{\"head\":[2,10],\"tail\":{\"head\":[2,8],\"tail\":{\"head\":[2,6],\"tail\":{\"head\":[2,4],\"tail\":{\"head\":[2,2],\"tail\":{\"head\":[2,0],\"tail\":{\"head\":[1,0],\"tail\":{\"head\":[0,12],\"tail\":{\"head\":[0,11],\"tail\":{\"head\":[0,10],\"tail\":{\"head\":[0,9],\"tail\":{\"head\":[0,8],\"tail\":{\"head\":[0,7],\"tail\":{\"head\":[0,6],\"tail\":{\"head\":[0,5],\"tail\":{\"head\":[0,4],\"tail\":{\"head\":[0,3],\"tail\":{\"head\":[0,2],\"tail\":{\"head\":[0,1],\"tail\":{\"head\":[0,0],\"tail\":{\"head\":null,\"tail\":null}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}"
+
+
+Ieva jankunaite
+Patricija lapienyte
+
+
+9 pasiaiskinti
+2-3 kazkuris is tu
+12
+16
+18
+19
+25
+29
+3
+
+dalykines srtities modelis
+business analysis
+
+padaryti maisto gamybe pigesne,...
+visija perfrzuoti
+nemineti apie appsus/webus etc.
+siuksliu parduotuves dalinasi info su mumis, ir 
+
+
+
+pirma saraso dalis yra mes kurie kuria iranga, o pabaigoje mes 
+
+
+verslo tikslai
+
+5.1: 0.34497
+5.2: 
+
+
+
+
+
+pataisymai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6,7,8,12,13,24,34,52,54,57,74,81,100,101,102,104
+6 belgija UC Leuven-Limburg 
+24 Aalborg Universitet (Danija)
+34 Universidad de Malaga (Ispanija)
+57 Universita degli Studi di Cassino e del Lazio Meridionale (Italija)
+81 Universidade Nova De Lisboa, ISEGI NOVA (Portugalija)
+101 University of Ljublijana (Slovėnija)
+102 University of Maribor (Slovėnija)
+104 Comenius University in Bratislava (Slovakija)
+
+12 University of South Bohemia (�Cekd1jija)
+13 Technical University of Liberec (Cekija)
+52 Eötvös Lorand UniversitVengrija)
+54 Budapest University of Technology and Economics (Vengrija)
+100 Tampere University (Suomija)
+74 Hanzehogeschool Groningen (Nyderlandų Karalystė)
+
+
+
+
+
+recenzavimas 
+
+
+
+
+
+
+
+
+restriction  - juostu max iso
+
+`:w
+`
+
+40-45 uzdaro tipo
+
+ir 2 atviro tipo

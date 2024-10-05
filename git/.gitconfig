@@ -1,0 +1,16 @@
+#[credential]
+#	helper = manager
+#[credential "https://dev.azure.com"]
+#	useHttpPath = true
+#[filter "lfs"]
+#	clean = git-lfs clean -- %f
+#	smudge = git-lfs smudge -- %f
+#	process = git-lfs filter-process
+#	required = true
+[user]
+	name = cezaris13
+	email = pijus.cezar13@gmail.com
+
+[credential "https://github.com"]
+  helper = cache
+  helper = github # important that you put it last because we only need to run gcg when other helpers have failed to give credentials

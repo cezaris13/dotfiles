@@ -7,3 +7,15 @@ swipe:
         up:
             command: ". $HOME/.config/dwm/scripts/dwm_specific/open_all_windows.sh 1" # invoke toggle_all_windows script:w
             
+pinch:
+  2:
+    in:
+      command: "xdotool keydown ctrl click 5 keyup ctrl" # threshold: 0.5, interval: 0.5
+    out:
+      command: "xdotool keydown ctrl click 4 keyup ctrl" # threshold: 0.5, interval: 0.5
+
+threshold:
+  pinch: 0.5
+
+interval:
+  pinch: 0.25

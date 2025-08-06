@@ -11,6 +11,10 @@
 	name = cezaris13
 	email = pijus.cezar13@gmail.com
 
-[credential "https://github.com"]
+[credential]
+	useHttpPath = true
+
+[credential "https://github.com/cezaris13"]
+  username=cezaris13
   helper = cache
   helper = github # important that you put it last because we only need to run gcg when other helpers have failed to give credentials

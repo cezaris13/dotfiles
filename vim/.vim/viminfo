@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/corner
+~MSle0~/deck
 
 # Last Substitute Search Pattern:
 ~MSle0&Taking the subject has not been succeeded!
@@ -20,24 +20,24 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1728135612,,"q"
 :wq
-|2,0,1728135531,,"wq"
-:w
-|2,0,1728135530,,"w"
+|2,0,1754482884,,"wq"
+:W
+|2,0,1754482883,,"W"
+:q
+|2,0,1754482841,,"q"
 :Q
-|2,0,1728134330,,"Q"
+|2,0,1754482840,,"Q"
+:w
+|2,0,1754482839,,"w"
+:w!
+|2,0,1735491661,,"w!"
 :Wq
 |2,0,1727983505,,"Wq"
 :q!
 |2,0,1727983098,,"q!"
-:w!
-|2,0,1721652912,,"w!"
 :q1
 |2,0,1721652084,,"q1"
-:W
-|2,0,1680501981,,"W"
 :L
 |2,0,1679933708,,"L"
 :.,.+1Q
@@ -82,6 +82,14 @@ $
 |2,0,1616155792,,"o /home/pijus/Desktop/Org_mode/org-mode.org"
 
 # Search String History (newest to oldest):
+?/deck
+|2,1,1744134719,47,"deck"
+?/kanaga
+|2,1,1728550800,47,"kanaga"
+?/doom
+|2,1,1728550782,47,"doom"
+?/kanagawa
+|2,1,1728550646,47,"kanagawa"
 ?/corner
 |2,1,1728054056,47,"corner"
 ?/evil
@@ -176,8 +184,6 @@ $
 |2,1,1634225271,47,"JsonLikeObject"
 ?/home/pijus/Downloads:q
 |2,1,1614323317,47,"home/pijus/Downloads:q"
-?/main
-|2,1,1611772944,47,"main"
 
 # Expression History (newest to oldest):
 
@@ -187,281 +193,415 @@ $
 
 # Registers:
 "0	LINE	0
-	export GCM_CREDENTIAL_STORE=secretservice
-|3,0,0,1,1,0,1727983994,"export GCM_CREDENTIAL_STORE=secretservice"
-"1	LINE	0
-		user = cezaris13
-|3,0,1,1,1,0,1727984249,"	user = cezaris13"
-"2	LINE	0
-	[github]
-|3,0,2,1,1,0,1727984248,"[github]"
-"3	LINE	0
-		name = Pijus Petkevičius
-|3,0,3,1,1,0,1727984248,"	name = Pijus Petkevičius"
-"4	LINE	0
-		email = pijus.cezar13@gmail.com
-|3,0,4,1,1,0,1727984247,"	email = pijus.cezar13@gmail.com"
-"5	LINE	0
-	[user]
-|3,0,5,1,1,0,1727984247,"[user]"
-"6	LINE	0
+	(setq doom-theme 'kanagawa-wave)
+|3,0,0,1,1,0,1728550649,"(setq doom-theme 'kanagawa-wave)"
+""1	LINE	0
 	
-|3,0,6,1,1,0,1727983934,""
+|3,1,1,1,1,0,1754482832,""
+"2	LINE	0
+	    command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out
+|3,0,2,1,1,0,1754482831,"    command: \"xdotool keydown ctrl click 5 keyup ctrl\" # Zoom out"
+"3	LINE	0
+	  out:
+|3,0,3,1,1,0,1754482831,"  out:"
+"4	LINE	0
+	    command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
+|3,0,4,1,1,0,1754482830,"    command: \"xdotool keydown ctrl click 4 keyup ctrl\" # Zoom in"
+"5	LINE	0
+	  in:
+|3,0,5,1,1,0,1754482830,"  in:"
+"6	LINE	0
+	pinch:
+|3,0,6,1,1,0,1754482830,"pinch:"
 "7	LINE	0
-		useHttpPath = true
-|3,0,7,1,1,0,1727983933,"	useHttpPath = true"
+	  swipe: 0.75
+|3,0,7,1,1,0,1754482826,"  swipe: 0.75"
 "8	LINE	0
-	[credential "https://dev.azure.com"]
-|3,0,8,1,1,0,1727983933,"[credential \"https://dev.azure.com\"]"
+	
+|3,0,8,1,1,0,1754482756,""
 "9	LINE	0
-		helper = /usr/bin/git-credential-manager
-|3,0,9,1,1,0,1727983932,"	helper = /usr/bin/git-credential-manager"
-""-	CHAR	0
-	 
-|3,1,36,0,1,0,1728133718," "
+	
+|3,0,9,1,1,0,1754482756,""
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1735492159,"#"
 
 # File marks:
-'0  1  0  ~/dotfiles/git/.gitconfig
-|4,48,1,0,1728135612,"~/dotfiles/git/.gitconfig"
-'1  53  9  ~/dotfiles/i3/.config/i3blocks/config
-|4,49,53,9,1728135531,"~/dotfiles/i3/.config/i3blocks/config"
-'2  1  0  ~/.gitconfig
-|4,50,1,0,1728134332,"~/.gitconfig"
-'3  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,51,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
-'4  1  0  ~/.xprofile
-|4,52,1,0,1728133694,"~/.xprofile"
-'5  2  0  ~/.bash_profile
-|4,53,2,0,1728133498,"~/.bash_profile"
-'6  1  0  ~/.xprofile
-|4,54,1,0,1728133332,"~/.xprofile"
-'7  64  0  ~/.config/lwsm/config.json
-|4,55,64,0,1728133197,"~/.config/lwsm/config.json"
-'8  25  0  ~/.config/volumeicon/volumeicon
-|4,56,25,0,1728133088,"~/.config/volumeicon/volumeicon"
-'9  32  0  ~/.config/qt5ct/qt5ct.conf
-|4,57,32,0,1728132990,"~/.config/qt5ct/qt5ct.conf"
+'0  21  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,48,21,11,1754482884,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'1  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,49,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'2  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,50,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'3  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,51,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'4  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,52,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'5  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,53,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'6  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,54,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'7  22  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,55,22,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'8  15  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,56,15,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'9  22  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,57,22,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
 
 # Jumplist (newest first):
--'  1  0  ~/dotfiles/git/.gitconfig
-|4,39,1,0,1728135612,"~/dotfiles/git/.gitconfig"
--'  53  9  ~/dotfiles/i3/.config/i3blocks/config
-|4,39,53,9,1728135531,"~/dotfiles/i3/.config/i3blocks/config"
--'  1  0  ~/dotfiles/i3/.config/i3blocks/config
-|4,39,1,0,1728135528,"~/dotfiles/i3/.config/i3blocks/config"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1728134332,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1728134332,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1728134332,"~/.gitconfig"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  24  16  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,24,16,1728134315,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.config/dwm/scripts/dwm_specific/autostart.sh
-|4,39,1,0,1728133698,"~/.config/dwm/scripts/dwm_specific/autostart.sh"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133694,"~/.xprofile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1728133498,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1728133485,"~/.bash_profile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
--'  1  0  ~/.xprofile
-|4,39,1,0,1728133332,"~/.xprofile"
+-'  21  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,21,11,1754482884,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,1,0,1754482876,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  3  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,3,0,1754482818,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  3  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,3,0,1754482818,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,1,0,1754482817,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  11  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,11,4,1754482752,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  11  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,11,4,1754482752,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  22  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,22,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  22  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,22,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  15  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,15,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,1,0,1754482742,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  15  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,15,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  12  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,12,11,1754482652,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  12  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,12,11,1754482652,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,1,0,1754482630,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  29  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,29,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  30  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,30,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  23  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,23,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  29  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,29,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  30  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,30,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  22  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,22,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  23  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,23,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
+|4,39,1,0,1754482610,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
+|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/dotfiles/i3/.config/i3blocks/config
-	*	1728135530	0
-	"	53	9
-	^	53	10
-	.	53	9
-	+	53	9
+> ~/dotfiles/fusuma/.config/fusuma/config.yml
+	*	1754482883	0
+	"	21	11
+	^	21	12
+	.	21	11
+	+	10	6
+	+	10	11
+	+	10	49
+	+	10	28
+	+	10	23
+	+	10	0
+	+	22	0
+	+	10	0
+	+	21	11
+	+	10	0
+	+	21	0
+	+	10	0
+	+	13	43
+	+	15	43
+	+	21	11
 
-> ~/dotfiles/git/.gitconfig
-	*	1728134404	0
+> ~/dotfiles/dwm/.config/dwm/configs/flags
+	*	1754481598	0
+	"	3	26
+	^	3	27
+	.	3	26
+	+	3	26
+
+> ~/zzzzzzz.txt
+	*	1752096957	0
 	"	1	0
+
+> ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
+	*	1752096938	0
+	"	10	0
+
+> ~/dotfiles/dwm/.config/dwm/configs/skippy-xd.rc
+	*	1752096800	0
+	"	1	0
+	^	194	18
+	.	194	17
+	+	194	17
+
+> ~/dotfiles/dwm/.config/dwm/configs/skippy-xd
+	*	1752096796	0
+	"	1	0
+
+> ~/Desktop/linux-control-center/control-center.example.conf
+	*	1751473439	0
+	"	1	0
+
+> ~/Desktop/linux-control-center/requirements.txt
+	*	1751473365	0
+	"	1	0
+
+> ~/dotfiles/dwm/.config/dwm/config.def.h
+	*	1744134878	0
+	"	85	36
+	.	85	36
+	+	85	36
+
+> ~/.xbindkeysrc
+	*	1735492500	0
+	"	1	0
+
+> ~/.xbindkeysrc.scm
+	*	1735492332	0
+	"	167	2
+
+> ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/autostart.sh
+	*	1735492163	0
+	"	9	0
+	^	24	1
+	.	9	0
+	+	1	22
+	+	8	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	19	0
+	+	9	0
+
+> ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/keyboard.sh
+	*	1735492037	0
+	"	1	0
+
+> /usr/share/vim/vim91/doc/help.txt
+	*	1735491664	0
+	"	1	0
+
+> ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/screenshot.sh
+	*	1732377471	0
+	"	13	16
+	^	13	17
+	.	13	16
+	+	5	18
+	+	6	14
+	+	8	14
+	+	13	0
+	+	6	17
+	+	8	17
+	+	13	16
 
 > ~/.gitconfig
-	*	1728134330	0
-	"	1	0
-	^	16	133
-	.	16	132
+	*	1728836062	0
+	"	18	1
+	^	18	2
+	.	18	1
 	+	1	0
 	+	1	132
 	+	1	0
@@ -476,7 +616,98 @@ $
 	+	8	0
 	+	9	0
 	+	13	0
-	+	16	132
+	+	20	132
+	+	17	0
+	+	19	0
+	+	20	0
+	+	19	0
+	+	17	0
+	+	14	11
+	+	16	0
+	+	18	17
+	+	17	40
+	+	18	1
+
+> ~/.bashrc
+	*	1728835843	0
+	"	2	0
+	^	31	1
+	.	31	0
+	+	2	0
+	+	5	13
+	+	6	15
+	+	26	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	31
+	+	11	45
+	+	1	0
+	+	27	0
+	+	8	0
+	+	30	0
+	+	29	0
+	+	25	0
+	+	23	0
+	+	31	40
+	+	32	30
+	+	31	0
+
+> ~/.bash
+	*	1728835838	0
+	"	1	0
+
+> ~/Desktop/ParallelProgramming/Labs/Lab1/makefile
+	*	1728652464	0
+	"	3	0
+
+> ~/dotfiles/doom/.config/doom/config.el
+	*	1728550806	0
+	"	7	25
+	^	7	26
+	.	7	25
+	+	7	25
+
+> ~/dotfiles/doom/.config/doom/config.org
+	*	1728550792	0
+	"	43	20
+	^	42	26
+	.	42	25
+	+	1	21
+	+	1	0
+	+	246	2
+	+	245	2
+	+	246	2
+	+	43	1
+	+	42	25
+
+> ~/Desktop/chatServer/Server/Server2/.gitignore
+	*	1728498078	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	1	1
+	+	2	10
+
+> ~/Desktop/chatServer/makefile
+	*	1728212131	0
+	"	1	0
+
+> ~/.fehbg
+	*	1728136025	0
+	"	1	0
+
+> ~/dotfiles/i3/.config/i3blocks/config
+	*	1728135530	0
+	"	53	9
+	^	53	10
+	.	53	9
+	+	53	9
+
+> ~/dotfiles/git/.gitconfig
+	*	1728134404	0
+	"	1	0
 
 > ~/.config/dwm/scripts/dwm_specific/autostart.sh
 	*	1728133809	0
@@ -707,39 +938,9 @@ $
 	*	1728123647	0
 	"	1	0
 
-> ~/Desktop/chatServer/makefile
-	*	1728064031	0
-	"	20	0
-
 > /etc/xdg/skippy-xd.rc
 	*	1728054112	0
 	"	102	15
-
-> ~/.bashrc
-	*	1727985234	0
-	"	1	0
-	^	31	1
-	.	31	0
-	+	2	0
-	+	5	13
-	+	6	15
-	+	26	0
-	+	27	0
-	+	28	0
-	+	27	0
-	+	28	0
-	+	27	31
-	+	11	45
-	+	1	0
-	+	27	0
-	+	8	0
-	+	30	0
-	+	29	0
-	+	25	0
-	+	23	0
-	+	31	40
-	+	32	30
-	+	31	0
 
 > ~/.doom.d/smooth-scrolling.el
 	*	1727976369	0
@@ -1012,10 +1213,6 @@ $
 	.	1	0
 	+	1	0
 
-> /usr/share/vim/vim91/doc/help.txt
-	*	1708266235	0
-	"	1	0
-
 > ~/.config/dwm/configs/picom.conf
 	*	1708265536	0
 	"	62	0
@@ -1124,189 +1321,3 @@ $
 	+	153	8
 	+	157	18
 	+	158	0
-
-> ~/Desktop/PS3/2Semester/Cryptography/Week10/message.txt
-	*	1683047642	0
-	"	1	24
-	^	1	25
-	.	1	24
-	+	1	24
-
-> ~/Desktop/PS3/2Semester/OOP/Laboratory2/Simulation/makefile
-	*	1682777083	0
-	"	1	0
-
-> ~/.config/dwm/scripts/dwm_specific/screenshot.sh
-	*	1682352122	0
-	"	1	0
-	^	21	4
-	.	22	0
-	+	14	0
-	+	12	27
-	+	13	16
-	+	21	0
-	+	16	12
-	+	18	29
-	+	19	39
-	+	20	3
-	+	18	30
-	+	19	53
-	+	21	0
-	+	20	1
-	+	21	3
-	+	22	0
-
-> ~/.config/dwm/scripts/dwm_specific/volume/volume_control.sh
-	*	1682320444	0
-	"	80	3
-	^	10	32
-	.	10	32
-	+	33	65
-	+	45	31
-	+	45	30
-	+	48	0
-	+	50	3
-	+	10	0
-	+	49	0
-	+	33	39
-	+	45	8
-	+	10	32
-
-> ~/Desktop/PS3/2Semester/Cryptography/Week8/test.txt
-	*	1682002864	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
-
-> ~/.config/deadd/deadd.css
-	*	1681287433	0
-	"	134	0
-	^	134	1
-	.	134	0
-	+	134	0
-
-> ~/.config/dwm/dwm.c
-	*	1680951624	0
-	"	69	0
-	^	1067	28
-	.	1067	27
-	+	1769	45
-	+	2104	0
-	+	2102	2
-	+	2103	2
-	+	1067	27
-
-> /tmp/dwm.log
-	*	1680888171	0
-	"	1	0
-
-> ~/.config/dwm/scripts/dwm_specific/bar.sh
-	*	1680884310	0
-	"	6	0
-	^	6	1
-	.	6	0
-	+	59	109
-	+	59	6
-	+	59	117
-	+	59	0
-	+	56	91
-	+	59	21
-	+	32	25
-	+	46	60
-	+	47	55
-	+	46	33
-	+	58	21
-	+	73	57
-	+	79	40
-	+	80	0
-	+	73	57
-	+	80	36
-	+	60	0
-	+	59	22
-	+	60	13
-	+	69	0
-	+	79	59
-	+	5	0
-	+	3	0
-	+	4	0
-	+	6	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-
-> ~/.config/i3blocks/i3blocks-contrib-master/keyindicator/keyindicator
-	*	1680884185	0
-	"	36	52
-
-> ~/.config/dwmblocks/config.h
-	*	1680880612	0
-	"	1	0
-	^	9	49
-	.	9	48
-	+	4	47
-	+	5	47
-	+	6	48
-	+	7	48
-	+	8	48
-	+	9	48
-
-> /tmp/blocks.txt
-	*	1680880286	0
-	"	1	0
-
-> ~/Desktop/PS3/2Semester/OOP/Week6/numbers_base/makefile
-	*	1680786851	0
-	"	1	0
-
-> ~/Desktop/Projects/dwmblocks-async/dwmblocks-async/config.h
-	*	1680505383	0
-	"	6	26
-	^	6	27
-	.	6	26
-	+	6	26
-
-> ~/test.sh
-	*	1680372535	0
-	"	20	7
-	^	20	8
-	.	20	8
-	+	23	2
-	+	20	7
-	+	22	7
-	+	19	7
-	+	20	8
-
-> ~/Desktop/SP/skippy-xd/skippy-xd.sample.rc
-	*	1680257193	0
-	"	94	15
-	^	94	16
-	.	94	15
-	+	94	15
-
-> ~/Desktop/SP/skippy-xd/skippy-xd
-	*	1680257183	0
-	"	1	0
-
-> ~/.config/dwm/configs/skippy-xd.rc
-	*	1680002504	0
-	"	11	25
-	^	11	26
-	.	11	25
-	+	7	16
-	+	24	12
-	+	2	0
-	+	24	10
-	+	25	16
-	+	6	20
-	+	25	0
-	+	11	25
-
-> /tmp/notify
-	*	1679933708	0
-	"	1	0
-
-> ~/file.txt
-	*	1679209033	0
-	"	1	0

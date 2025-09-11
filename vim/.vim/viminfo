@@ -11,31 +11,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/deck
+~MSle0/deck
 
 # Last Substitute Search Pattern:
-~MSle0&Taking the subject has not been succeeded!
+~MSle0~&#Server
 
 # Last Substitute String:
-$
+$Server
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1756633532,,"q!"
+:qĄ
+|2,0,1756633528,,"qĄ"
+:q
+|2,0,1755286222,,"q"
+:%s/#Server/Server/g
+|2,0,1755286217,,"%s/#Server/Server/g"
 :wq
-|2,0,1754482884,,"wq"
+|2,0,1755157874,,"wq"
+:w
+|2,0,1755157778,,"w"
 :W
 |2,0,1754482883,,"W"
-:q
-|2,0,1754482841,,"q"
 :Q
 |2,0,1754482840,,"Q"
-:w
-|2,0,1754482839,,"w"
 :w!
 |2,0,1735491661,,"w!"
 :Wq
 |2,0,1727983505,,"Wq"
-:q!
-|2,0,1727983098,,"q!"
 :q1
 |2,0,1721652084,,"q1"
 :L
@@ -82,6 +86,10 @@ $
 |2,0,1616155792,,"o /home/pijus/Desktop/Org_mode/org-mode.org"
 
 # Search String History (newest to oldest):
+? #Server
+|2,1,1755286217,,"#Server"
+?/I
+|2,1,1754906863,47,"I"
 ?/deck
 |2,1,1744134719,47,"deck"
 ?/kanaga
@@ -196,261 +204,360 @@ $
 	(setq doom-theme 'kanagawa-wave)
 |3,0,0,1,1,0,1728550649,"(setq doom-theme 'kanagawa-wave)"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1754482832,""
+	1dd
+|3,1,1,1,1,0,1756632127,"1dd"
 "2	LINE	0
-	    command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out
-|3,0,2,1,1,0,1754482831,"    command: \"xdotool keydown ctrl click 5 keyup ctrl\" # Zoom out"
-"3	LINE	0
-	  out:
-|3,0,3,1,1,0,1754482831,"  out:"
-"4	LINE	0
-	    command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
-|3,0,4,1,1,0,1754482830,"    command: \"xdotool keydown ctrl click 4 keyup ctrl\" # Zoom in"
-"5	LINE	0
-	  in:
-|3,0,5,1,1,0,1754482830,"  in:"
-"6	LINE	0
-	pinch:
-|3,0,6,1,1,0,1754482830,"pinch:"
-"7	LINE	0
-	  swipe: 0.75
-|3,0,7,1,1,0,1754482826,"  swipe: 0.75"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1754482756,""
+|3,0,2,1,1,0,1755157872,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1755157872,""
+"4	LINE	0
+	
+|3,0,4,1,1,0,1755157799,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1755157775,""
+"6	LINE	0
+	#fix dark mode for dolphin
+|3,0,6,1,1,0,1755157774,"#fix dark mode for dolphin"
+"7	LINE	0
+	export XDG_CURRENT_DESKTOP=KDE
+|3,0,7,1,1,0,1755157774,"export XDG_CURRENT_DESKTOP=KDE"
+"8	LINE	0
+	##
+	# ~/.bashrc
+|3,0,8,1,2,0,1755157767,"##","# ~/.bashrc"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1754482756,""
+|3,0,9,1,1,0,1755157746,""
 "-	CHAR	0
-	#
-|3,0,36,0,1,0,1735492159,"#"
+	X
+|3,0,36,0,1,0,1754982220,"X"
 
 # File marks:
-'0  21  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,48,21,11,1754482884,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'1  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,49,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'2  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,50,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'3  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,51,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'4  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,52,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'5  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,53,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'6  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,54,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'7  22  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,55,22,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'8  15  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,56,15,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
-'9  22  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,57,22,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
+'0  1  0  /tmp/skippy-xd-fifo-1000-3-0
+|4,48,1,0,1757410686,"/tmp/skippy-xd-fifo-1000-3-0"
+'1  1  0  ~/Downloads/install qiskit.tex
+|4,49,1,0,1757337731,"~/Downloads/install qiskit.tex"
+'2  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,50,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+'3  344  0  /etc/pacman.d/mirrorlist
+|4,51,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+'4  8  0  ~/.xprofile
+|4,52,8,0,1755157874,"~/.xprofile"
+'5  7  21  ~/.xprofile
+|4,53,7,21,1755157802,"~/.xprofile"
+'6  7  21  ~/.xprofile
+|4,54,7,21,1755157802,"~/.xprofile"
+'7  25  0  ~/.bashrc
+|4,55,25,0,1755157779,"~/.bashrc"
+'8  26  0  ~/.bashrc
+|4,56,26,0,1755157748,"~/.bashrc"
+'9  27  0  ~/.bashrc
+|4,57,27,0,1755157748,"~/.bashrc"
 
 # Jumplist (newest first):
--'  21  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,21,11,1754482884,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,1,0,1754482876,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  15  43  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,15,43,1754482841,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  3  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,3,0,1754482818,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  3  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,3,0,1754482818,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,1,0,1754482817,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  10  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,10,0,1754482758,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  11  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,11,4,1754482752,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  11  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,11,4,1754482752,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  22  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,22,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  22  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,22,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  15  4  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,15,4,1754482745,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,1,0,1754482742,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  15  22  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,15,22,1754482666,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  12  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,12,11,1754482652,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  12  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,12,11,1754482652,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,1,0,1754482630,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  29  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,29,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  30  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,30,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  23  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,23,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  29  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,29,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  30  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,30,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  22  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,22,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  23  11  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,23,11,1754482623,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  1  0  ~/dotfiles/fusuma/.config/fusuma/config.yml
-|4,39,1,0,1754482610,"~/dotfiles/fusuma/.config/fusuma/config.yml"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  3  26  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,3,26,1754481599,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  1  0  ~/dotfiles/dwm/.config/dwm/configs/flags
-|4,39,1,0,1754481591,"~/dotfiles/dwm/.config/dwm/configs/flags"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
--'  10  0  ~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh
-|4,39,10,0,1752097030,"~/dotfiles/dwm/.config/dwm/scripts/dwm_specific/open_all_windows.sh"
+-'  1  0  /tmp/skippy-xd-fifo-1000-3-0
+|4,39,1,0,1757410686,"/tmp/skippy-xd-fifo-1000-3-0"
+-'  1  0  ~/Downloads/install qiskit.tex
+|4,39,1,0,1757337731,"~/Downloads/install qiskit.tex"
+-'  1  0  ~/Downloads/install qiskit.tex
+|4,39,1,0,1757337731,"~/Downloads/install qiskit.tex"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  936  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,936,0,1755286223,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  794  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,794,0,1755286217,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  1  0  /etc/pacman.d/mirrorlist.pacnew
+|4,39,1,0,1755286196,"/etc/pacman.d/mirrorlist.pacnew"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  344  0  /etc/pacman.d/mirrorlist
+|4,39,344,0,1755286181,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  1  0  /etc/pacman.d/mirrorlist
+|4,39,1,0,1755286167,"/etc/pacman.d/mirrorlist"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  8  0  ~/.xprofile
+|4,39,8,0,1755157874,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
+-'  1  0  ~/.xprofile
+|4,39,1,0,1755157870,"~/.xprofile"
 
 # History of marks within files (newest to oldest):
+
+> ~/Downloads/install qiskit.tex
+	*	1757337721	0
+	"	1	0
+
+> /etc/pacman.d/mirrorlist.pacnew
+	*	1755286222	0
+	"	936	0
+	.	7	0
+	+	7	0
+
+> /etc/pacman.d/mirrorlist
+	*	1755286179	0
+	"	344	0
+
+> ~/.xprofile
+	*	1755157873	0
+	"	8	0
+	^	7	22
+	.	9	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	31
+	+	12	0
+	+	12	41
+	+	12	0
+	+	12	22
+	+	12	0
+	+	6	0
+	+	7	0
+	+	8	30
+	+	9	0
+	+	7	21
+	+	9	0
+
+> ~/.bashrc
+	*	1755157778	0
+	"	25	0
+	.	26	0
+	+	3	0
+	+	5	13
+	+	5	59
+	+	28	0
+	+	29	0
+	+	30	0
+	+	29	0
+	+	30	0
+	+	29	31
+	+	12	45
+	+	3	0
+	+	29	0
+	+	9	0
+	+	32	0
+	+	31	0
+	+	27	0
+	+	24	0
+	+	33	40
+	+	34	30
+	+	33	0
+	+	5	44
+	+	6	0
+	+	27	0
+	+	27	30
+	+	27	0
+	+	20	0
+	+	19	3
+	+	20	3
+	+	16	0
+	+	17	0
+	+	21	0
+	+	20	0
+	+	26	90
+	+	27	0
+	+	26	7
+	+	26	0
+	+	26	34
+	+	26	0
+	+	26	6
+	+	26	0
+	+	26	25
+	+	26	0
+	+	1	0
+	+	26	0
+
+> ~/dotfiles/dwm/.config/dwm/config.h
+	*	1754993680	0
+	"	131	0
+
+> ~/.bash_profile
+	*	1754906835	0
+	"	1	0
+
+> /run/media/pijus/rootfs/etc/NERD_tree_1
+	*	1754854827	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/dotfiles/fusuma/.config/fusuma/config.yml
 	*	1754482883	0
@@ -628,32 +735,6 @@ $
 	+	17	40
 	+	18	1
 
-> ~/.bashrc
-	*	1728835843	0
-	"	2	0
-	^	31	1
-	.	31	0
-	+	2	0
-	+	5	13
-	+	6	15
-	+	26	0
-	+	27	0
-	+	28	0
-	+	27	0
-	+	28	0
-	+	27	31
-	+	11	45
-	+	1	0
-	+	27	0
-	+	8	0
-	+	30	0
-	+	29	0
-	+	25	0
-	+	23	0
-	+	31	40
-	+	32	30
-	+	31	0
-
 > ~/.bash
 	*	1728835838	0
 	"	1	0
@@ -815,16 +896,6 @@ $
 	+	13	6
 	+	17	17
 	u	1	0
-
-> ~/.xprofile
-	*	1728133501	0
-	"	1	0
-	.	6	0
-	+	6	0
-
-> ~/.bash_profile
-	*	1728133497	0
-	"	2	0
 
 > ~/.config/lwsm/config.json
 	*	1728133193	0
@@ -1206,118 +1277,3 @@ $
 > /etc/locale.gen.pacnew
 	*	1721651898	0
 	"	168	5
-
-> /etc/pacman.d/NERD_tree_1
-	*	1721545986	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.config/dwm/configs/picom.conf
-	*	1708265536	0
-	"	62	0
-
-> ~/.help
-	*	1708265209	0
-	"	1	0
-
-> ~/.config/dwm/scripts/dwm_specific/bluetooth/bluetooth.sh
-	*	1691753643	0
-	"	1	0
-	^	4	0
-	.	4	0
-	+	8	1
-	+	4	0
-
-> ~/.vim/notes.txt
-	*	1686395834	0
-	"	158	0
-	^	157	19
-	.	158	0
-	+	94	14
-	+	95	15
-	+	91	13
-	+	97	18
-	+	102	0
-	+	104	51
-	+	105	46
-	+	105	0
-	+	105	54
-	+	106	28
-	+	113	0
-	+	115	0
-	+	114	496
-	+	114	5
-	+	120	0
-	+	120	2128
-	+	1	0
-	+	120	8
-	+	1	0
-	+	120	19
-	+	120	17
-	+	120	1
-	+	120	0
-	+	120	17
-	+	120	4
-	+	120	11
-	+	120	24
-	+	120	48
-	+	133	2
-	+	121	9
-	+	123	10
-	+	123	2
-	+	121	28
-	+	123	27
-	+	123	38
-	+	123	33
-	+	123	36
-	+	123	30
-	+	124	34
-	+	125	37
-	+	125	60
-	+	125	69
-	+	126	52
-	+	126	55
-	+	131	31
-	+	131	40
-	+	132	37
-	+	133	48
-	+	134	0
-	+	123	0
-	+	121	38
-	+	125	39
-	+	125	54
-	+	123	0
-	+	134	0
-	+	136	0
-	+	125	0
-	+	138	0
-	+	131	0
-	+	182	0
-	+	134	0
-	+	126	0
-	+	182	0
-	+	138	0
-	+	122	0
-	+	123	0
-	+	129	0
-	+	136	0
-	+	134	0
-	+	136	0
-	+	138	13
-	+	182	3
-	+	182	0
-	+	192	225
-	+	186	24
-	+	182	15
-	+	182	0
-	+	138	0
-	+	136	0
-	+	120	0
-	+	180	0
-	+	150	10
-	+	151	10
-	+	152	16
-	+	153	8
-	+	157	18
-	+	158	0
